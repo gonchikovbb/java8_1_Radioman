@@ -1,7 +1,8 @@
+
 package ru.netology;
 
 public class Main {
     public static void main(String[] args) {
-        Radio rad = new Radio(3);
+        Radio rad = new Radio();
     }
 }
