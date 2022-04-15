@@ -49,20 +49,18 @@ public class Radio {
         if (currentStation < 9) {
             currentStation = currentStation + 1;
         }
-    }
-    public void setReduceCurrentStation() {
-        if (currentStation > 0) {
-            currentStation = currentStation - 1;
-        }
-    }
-    public void setNextStation() {
         if (currentStation == 9) {
             currentStation = 0;
         }
     }
-    public void setPrevStation() {
+
+    public void setReduceCurrentStation() {
+        if (currentStation > 0) {
+            currentStation = currentStation - 1;
+        }
         if (currentStation == 0) {
             currentStation = 9;
         }
     }
+
 }
