@@ -97,7 +97,7 @@ class RadioTest {
     }
 
     @Test
-    public void shouldIncreaseStation01() {
+    public void shouldIncreaseStation0_1() {
         Radio rad = new Radio();
         rad.setCurrentStation(0);
         rad.setIncreaseCurrentStation();
@@ -107,7 +107,7 @@ class RadioTest {
     }
 
     @Test
-    public void shouldIncreaseStation12() {
+    public void shouldIncreaseStation1_2() {
         Radio rad = new Radio();
         rad.setCurrentStation(1);
         rad.setIncreaseCurrentStation();
@@ -137,7 +137,7 @@ class RadioTest {
     }
 
     @Test
-    public void shouldIncreaseStation10() {
+    public void shouldIncreaseStation10_1() {
         Radio rad = new Radio();
         rad.setCurrentStation(10);
         rad.setIncreaseCurrentStation();

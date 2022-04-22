@@ -49,7 +49,7 @@ public class Radio {
         if (currentStation < 9) {
             currentStation = currentStation + 1;
         }
-        else if (currentStation == 9) {
+        else {
             currentStation = 0;
         }
     }
@@ -58,7 +58,7 @@ public class Radio {
         if (currentStation > 0) {
             currentStation = currentStation - 1;
         }
-        else if (currentStation == 0) {
+        else {
             currentStation = 9;
         }
     }
