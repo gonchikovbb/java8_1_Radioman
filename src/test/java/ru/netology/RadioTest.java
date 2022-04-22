@@ -117,6 +117,16 @@ class RadioTest {
     }
 
     @Test
+    public void shouldIncreaseStation8_9() {
+        Radio rad = new Radio();
+        rad.setCurrentStation(8);
+        rad.setIncreaseCurrentStation();
+        int expected = 9;
+        int actual = rad.getCurrentStation();
+        assertEquals(expected, actual);
+    }
+
+    @Test
     public void shouldIncreaseStation9_0() {
         Radio rad = new Radio();
         rad.setCurrentStation(9);
